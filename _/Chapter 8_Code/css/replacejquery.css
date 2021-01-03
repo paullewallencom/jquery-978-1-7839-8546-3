@@ -1,0 +1,4 @@
+.slideshow { position: relative; width: 500px; height: 200px; overflow: hidden; }
+.slide-trigger { display: none; }
+.slide { position: absolute; top: 0; left: -500px; transition: left 1s ease-in-out; }
+.slide-trigger:checked + .slide { left: 0; }

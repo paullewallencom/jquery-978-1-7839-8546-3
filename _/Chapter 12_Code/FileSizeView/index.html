@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>FileSizeView 1.0</title>
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel='stylesheet' />
+  <link href="css/style.css" rel="stylesheet" />
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.knob.js"></script>
+  <script src="js/jquery.ui.widget.js"></script>
+  <script src="js/jquery.iframe-transport.js"></script>
+  <script src="js/jquery.fileupload.js"></script>
+  <script src="js/window.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div id="header">
+    <ul>
+      <li><a href='#' title='Minimize' id='minimize'></a></li>
+      <li><a href='#' title='Close' id='close'></a></li>
+    </ul>
+
+    <div id="title"><img src="img/filesize-small.png">FileSizeView 1.0</div>
+
+  </div>
+  <form id="upload" method="post" action="upload.php" enctype="multipart/form-data">
+    <div id="drop">
+      Drop Here
+      <a>Browse</a>
+      <input type="file" name="upl" multiple />
+    </div>
+    <ul>
+      <!-- The file uploads will be shown here -->
+    </ul>
+  </form>
+</body>
+</html>

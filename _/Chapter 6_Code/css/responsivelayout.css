@@ -1,0 +1,50 @@
+body {
+  font:.75em/1.5 "lucida grande", arial, sans-serif; overflow:hidden; }
+ #container p {
+  width: 200px;
+  -webkit-transition: all 700ms cubic-bezier(.4,.1,.4,1) 200ms;
+  -moz-transition: all 700ms cubic-bezier(.4,.1,.4,1) 200ms;
+  -o-transition: all 700ms cubic-bezier(.4,.1,.4,1) 200ms;
+  transition: all 700ms cubic-bezier(.4,.1,.4,1) 200ms }
+
+#container {
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+    width: 51%;
+}
+
+#container p:first-child {
+    float: left;
+    margin-left: 20px;
+    position: absolute;
+}
+
+#container p:nth-child(2n) {
+    float: left;
+    margin-left: 240px;
+    position: absolute;
+}
+
+#container p: last-child { margin-left: 460px }
+
+@media only screen and (max-width: 760px) {
+  #container {
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 90%;
+  }
+
+  #container p {
+    width: 85%;
+    margin-left: 0px !important }
+    #container p:first-child     { margin-top: 20px; }
+    #container p:nth-child(even) { margin-top: 260px; }
+    #container p:last-child      { margin-top: 460px; }
+  }
+}

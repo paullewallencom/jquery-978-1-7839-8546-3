@@ -1,0 +1,4 @@
+body { font-family: helvetica neue, sans-serif;}
+li { width: 150px; list-style-type: none; margin-bottom: 3px; border-radius: 4px; padding: 5px; }
+li:hover { background-color: #c5b19c; }
+.ui-widget-content { background-color: #f4f0ec; border: 1px solid #e0cfc2; color: #1e1b1d; }

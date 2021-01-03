@@ -1,0 +1,20 @@
+ body { font: normal 100.01%/1.375 "Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+ .sigPad {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    padding: 1.5rem;
+    width: 200px;
+}
+
+
+.sigPad input[type="checkbox"] {
+    border: 1px solid #666;
+    font-size: 1em;
+    margin: 0;
+    width: 198px;
+}

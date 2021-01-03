@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../font/OpenSans-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div { background-color: #dda661; width: 10rem; border: 1px solid #873d1d; margin-left: 10rem; font-family: "open_sansregular", sans-serif; font-weight: bold; }

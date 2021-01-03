@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Demo: Building a Quick Validation plugin with jQuery</title>
+  <link rel="stylesheet" href="css/quickvalidate.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.quickValidate.js"></script>
+  <script>
+    $(document).ready(function(){
+	    $('#contactform').quickValidate();
+    });
+  </script>
+</head>
+<body>
+  <form id="contactform">
+    <p>
+      <label for="name">Name <span>*</span>:</label>
+      <input id="name" type="text" class="required name"/>
+    </p>
+    <p>
+      <label for "password">Password <span>*</span>:</label>
+      <input type="password" class="required pass"/>
+    </p>
+    <p>
+      <label for "email">E-Mail <span>*</span>:</label>
+      <input id="email" type="text" class="required email"/>
+    </p>
+    <p>
+      <label for "phone">Phone:</label>
+      <input id="phone" type="text" class="phone" placeholder="999-999-9999"/>
+    </p>
+    <p>
+      <label>&nbsp;</label>
+      <button type="submit">Submit</button>
+    </p>
+    <span id="errormessage"></span>
+  </form>
+</body>
+</html>

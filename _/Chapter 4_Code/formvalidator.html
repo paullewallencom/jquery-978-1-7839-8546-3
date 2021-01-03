@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Demo: Using the FormValidator plugin</title>
+  <link rel="stylesheet" href="css/formvalidator.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.form-validator.min.js"></script>
+  <script src="js/formvalidator.js"></script>
+</head>
+<body>
+  <div id="container">
+  	<div id="formtitle">
+  	  <h2>A simple contact form</h2>
+  	</div>
+    <div id="notice">* denotes a required field</div> 
+    <div id="error-message-wrapper"></div>
+    <form class="contact_form" action="" method="post" name="contact_form" role="form" novalidate="novalidate">
+      <div class="form-group">
+        <label class="control-name" for="name">Name: <span class="asterisk">*</span></label>
+        <input name="username" id="username" data-validation="user_name" required="required">
+      </div>
+      <div class="form-group">
+        <label class="control-name" for="email">Email: <span class="asterisk">*</span></label>
+        <input type="text" name="email" id="email" data-validation="free_email" required="required">
+      </div>
+      <div class="form-group">
+        <label class="control-name" for="website">Website: <span class="asterisk">*</span></label>
+        <input type="url" name="website" id="website" data-validation="url" required="required">
+      </div>
+      <div class="form-group">
+        <label class="control-name" for="message">Message:</label>
+        <textarea name="message" cols="40" rows="6"></textarea>
+      </div>
+      <input id="submit" type="submit" value="Submit Form">
+    </form>
+  </div>
+</body>
+</html>

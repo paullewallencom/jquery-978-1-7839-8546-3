@@ -1,0 +1,34 @@
+body { font-family: helvetica, sans-serif; }
+h2 { margin-top: -3px; }
+
+ul { margin-left: -20px; }
+li { list-style-type: none; margin-bottom: 20px; }
+
+label { display: block; width: 80px; float: left; }
+textarea { width: 90%; }
+input { width: 50%; height: 20px;}
+
+#container { width: 45%; border: 1px solid black; border-radius: 4px; }
+#formtitle { background-color: #cd8a82; color: #fff; height: 25px; padding: 3px; border-radius: 4px 4px 0 0; border-bottom: 1px solid black; }
+
+input[type="submit"] { margin: 10px; width: 100px; height: 30px; }
+
+.error p { color: red; font-size: 12px; }
+
+ .error { color: #f00; }
+
+ .success { color: #060; }
+
+/*
+ input:required:invalid, input:focus:invalid { 
+ 	background-image: url(../img/invalid.png); 
+ 	background-position: right center; 
+ 	background-repeat: no-repeat; 
+ } 
+
+ input:required:valid { 
+ 	background-image: url(../img/valid.png); 
+ 	background-position: right center; 
+ 	background-repeat: no-repeat; 
+ }*/
+

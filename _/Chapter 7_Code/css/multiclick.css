@@ -1,0 +1,5 @@
+body { font-family: helvetica neue, sans-serif; }
+#container { width: 200px; border: 1px solid black; border-radius: 4px; }
+#title { border-bottom: 1px solid black; padding: 5px; background-color: #e1d7cc; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+button { margin: 5px; }
+p { margin-left: 5px; }

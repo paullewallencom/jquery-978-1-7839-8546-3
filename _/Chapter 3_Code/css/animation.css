@@ -1,0 +1,4 @@
+body { font-family: helvetica, sans-serif; font-weight: bold; font-size: 14px; }
+
+div { background-color: #dafdaf; width: 200px; height: 1.1rem; text-align: center; border: 2px solid green; margin: 1.0rem; padding: 0.5rem 1rem 1rem; }
+button { font-size: 14px; }

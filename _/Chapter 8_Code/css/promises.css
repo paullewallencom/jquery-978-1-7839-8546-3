@@ -1,0 +1,6 @@
+body { font-family: "helvetica neue", sans-serif; }
+input { margin-top: 10px; }
+ul { margin-left: -20px; }
+
+#list { border: 1px solid #ccd3ec; padding: 5px; width: 92%; background-color: #ccd3ec; }
+#container { border: 1px solid #000; width: 215px; border-radius: 4px; padding: 10px; }

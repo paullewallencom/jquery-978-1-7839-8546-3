@@ -1,0 +1,6 @@
+body { font-family: helvetica neue, sans-serif; }
+#container { width: 250px; border: 1px solid black; border-radius: 4px; box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75); }
+#title { border-bottom: 1px solid black; padding: 5px; background-color: #cce1e1; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+button { margin: 5px; }
+p { margin-left: 5px; }
+#mydiv { padding: 4px; }

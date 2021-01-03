@@ -1,0 +1,8 @@
+html { font-family: 'Open Sans', sans-serif; }
+
+#info { border: 0.1rem solid #000; border-radius: 0.4rem; margin-left: auto; margin-right: auto; padding-bottom: 0.6rem; padding-left: 0.6rem;
+    padding-right: 0.6rem; width: 90%; box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.43); margin-top: 2%; }
+
+h1 { border: 0.1rem solid #000; margin-top: 0.6rem; padding: 0.4rem; background-color: #e2a8a2; }
+
+li { list-style-type: none; margin-top: 5px; }

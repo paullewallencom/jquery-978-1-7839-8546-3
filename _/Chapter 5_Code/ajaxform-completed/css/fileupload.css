@@ -1,0 +1,24 @@
+input[type="text"], input[type="email"], input[type="url"] .uneditable-input { border-radius: 4px; color: #555555; display: inline-block; font-size: 14px;
+    height: 30px; line-height: 30px; margin-bottom: 10px; padding: 4px 6px; vertical-align: middle; }
+
+li { list-style: outside none none; margin-top: 10px; margin-left: -25px; }
+
+.fileDetails { font-weight: bold; }
+.container { width: 100%; }
+
+.btn { position: relative; overflow: hidden; margin-bottom: 10px; }
+    
+.btn input[type=file] { position: absolute; top: 0; right: 0; min-width: 100%; min-height: 100%; font-size: 100px; text-align: right; filter: alpha(opacity=0);
+    opacity: 0; outline: none; background: white; cursor: inherit; display: block; }
+
+.progress-success.progress-striped .bar, .progress-striped .bar-success { background-color: #cd8a82;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+.btn-success { background-color: #cd8a82; background-image: -moz-linear-gradient(center top , #cd8a82, #b7574b); background-repeat: repeat-x; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #ffffff; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] { background-color: #b7574b; color: #ffffff; }
+
+input[type=email], input[type=text] { filter: blur(3px); opacity: .4; transition: all .4s; }
+input[type=email]:focus, input[type=text]:focus { filter: none; opacity: 1; }

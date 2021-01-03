@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Demo - calling jQuery modules using AMD</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/amd.css">
+</head>
+<body>
+  <div id="test">
+    <p>This is a test</p>
+  </div>
+
+  <script src="bower_components/requirejs/require.js"></script>
+  <script>
+    require.config({
+      paths: {
+        "jquery": "bower_components/jquery/src",
+        "sizzle": "bower_components/jquery/src/sizzle/dist/sizzle",
+      }
+    });
+    require(["js/app"]);
+  </script>
+</body>
+</html>

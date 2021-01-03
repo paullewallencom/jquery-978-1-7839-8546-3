@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "0.0.1",
+  "authors": [
+    "Alex Libby"
+  ],
+  "description": "A example of how to use Bower to install jQuery",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],  
+  "dependencies": {
+    "jquery-legacy": "jquery#1.11.1",
+    "jquery-modern": "jquery#2.1.1"
+  },
+  "install": {
+    "path" : {
+      "js" : "/js"
+    }
+  }
+}

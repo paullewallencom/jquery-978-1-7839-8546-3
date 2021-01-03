@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'ambleregular';
+    src: url('Amble-Regular-webfont.eot');
+    src: url('Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Amble-Regular-webfont.woff') format('woff'),
+         url('Amble-Regular-webfont.ttf') format('truetype'),
+         url('Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body { font-family: 'ambleregular', sans-serif; }
+
+p { background: #daddad; font-weight: bold; font-size: 16px; padding: 0.5rem; border-radius: 4px; }
+
+#container { width: 25rem; }

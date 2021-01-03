@@ -1,0 +1,16 @@
+body { font-family: helvetica neue, sans-serif;}
+
+#box {
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background: #976a25;
+  color: #fff;
+  font-weight: bold;
+}
+
+#box-outer {
+  overflow: hidden;
+  height: 120px;
+  margin: 5px;
+}

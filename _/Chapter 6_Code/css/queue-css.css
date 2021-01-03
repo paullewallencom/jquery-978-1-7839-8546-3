@@ -1,0 +1,9 @@
+li {
+	width: 80px;
+    transition: width 1s ease-in, padding-left 1s ease-in, padding-right 1s ease-in;	
+}
+
+li:hover {
+	width: 100px;
+    transition: width 1s ease-out, padding-left 1s ease-out, padding-right 1s ease-out;
+}

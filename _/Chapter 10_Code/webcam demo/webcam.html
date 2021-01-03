@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Demo: Capturing webcam images using jQuery</title>
+  <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/webcam.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/webcam.js"></script>
+  <script src="js/caman.full.js"></script>
+</head>
+<body>
+  <div id="container">
+    <h2>Demo: Manipulating screenshots using a webcam</h2>
+    <hr>
+    <video id="video" width="320" height="240" autoplay></video>
+    <canvas id="canvas" width="320" height="240"></canvas>    
+  </div>
+  <div id="controls">
+    <a href="#" id="startplay">Start camera</a>
+    <a href="#" id="stopplay">Stop camera</a>
+    <a href="#" id="snap">Snap Photo</a>
+    <a href="#" id="download" download="webcam-photo.png">Download Photo</a>
+  </div>
+</body>
+</html>

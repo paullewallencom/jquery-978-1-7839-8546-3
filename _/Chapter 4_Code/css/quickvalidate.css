@@ -1,0 +1,17 @@
+html { margin: 20px; }
+form { border: 1px solid #000; border-radius: 4px; height: 220px; width: 350px; padding: 10px; }
+body { margin: 0 auto; width:900px; font: normal 15px/1.5 Arial; }
+h1, h2 { margin: 0; line-height: 1.1em; }
+h1 { font-size: 50px; letter-spacing: -1px; }
+h2 { color: #666; font-size: 24px; margin-bottom: 30px; }
+#errormessage  { float: left; width: 75px; margin-left: 185px; margin-top: -40px; width: 165px; color: #f00; }
+
+#contactform p { float: left; clear: both; position: relative; margin: .5em 0; }
+#contactform label, #contactform input { display: inline-block; }
+#contactform label { width: 100px; }
+#contactform label span { color: red; }
+#contactform input { padding: 0 .3em; height: 24px; line-height: 24px; width: 200px; border: 1px solid #ccc; }
+#contactform input.invalid { background: #FFFAC4; }
+#contactform .error-icon { position: absolute; top: 0; right: -32px; height: 24px; width: 24px; background: url(../img/info.png) no-repeat; cursor: pointer; }
+#contactform .error { display: none; position: absolute; top: -5px; right: -180px; z-index: 999; padding: 10px; width: 120px; font-size: 12px; background: #222; color: white; border-radius: 4px; }
+#contactform button {border:1px solid #ccc; padding:5px 10px;}

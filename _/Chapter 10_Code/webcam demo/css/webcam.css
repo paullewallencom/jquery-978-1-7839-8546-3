@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'fira_sansbook';
+    src: url('../font/firasans-book-webfont.eot');
+    src: url('../font/firasans-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/firasans-book-webfont.woff2') format('woff2'),
+         url('../font/firasans-book-webfont.woff') format('woff'),
+         url('../font/firasans-book-webfont.ttf') format('truetype'),
+         url('../font/firasans-book-webfont.svg#fira_sansbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#container { background: none repeat scroll 0 0 white; box-shadow: 0 1px 10px #d9d9d9; height: 16rem; margin: 2rem auto 0; padding: 2em; width: 41.3rem; }
+#controls { float: left; position: absolute; width: 35rem; margin-left: 35%; margin-top: 1rem; }
+#controls a { background-color: #d7b395; border: medium none; border-radius: 3px; color: #000000; cursor: pointer;
+    display: block; float: left; font-size: 13px; margin: 5px; padding: 8px 8px; text-align: center; transition: background-color 0.3s ease-out 0s;
+    width: 110px; font-family: fira_sansbook, sans-serif; text-decoration: none; }
+#controls a:hover { background-color: #e8d2c1; }
+#controls a:active { box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3) inset; }
+
+canvas { margin-left: 1rem; position: absolute; }
+
+h2 { font-family: fira_sansbook, sans-serif; margin-bottom: -0.5rem; margin-top: -1.5rem; }
+
+.grayscale { filter: grayscale(1); -webkit-filter: blur(3px);}
+.sepia { filter: sepia(1); -webkit-filter: blur(3px);}
+.blur { filter: blur(3px); -webkit-filter: blur(3px);}
+.saturate { filter: saturate(500%); -webkit-filter: saturate(500%); }

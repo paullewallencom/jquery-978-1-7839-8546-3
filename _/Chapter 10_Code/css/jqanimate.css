@@ -1,0 +1,26 @@
+body { background: #fff; max-width: 90%; padding: 20px 0; }
+
+img { border: none; }
+p { margin: 0 0 20px; }
+a { color: #69c; text-decoration: none; }
+
+#container { width: 25rem; margin: 0 auto; }
+
+.gallery { margin: 0 0 25px; }
+.gallery a { position: relative; display: inline-block; }
+.gallery li { margin: 5px; list-style: none; display: inline-block; }
+
+.tape li { width: 24.4rem; padding: 5px; border: solid 1px #cac09f; background: #fdf8e4; text-align: center; box-shadow: inset 0 1px rgba(255,255,255,.8), 0 1px 2px rgba(0,0,0,.2); border-radius: 4px; }
+.tape figure { position: relative; margin: 0; }
+.tape figcaption { font: 100%/120% Handlee, Arial, Helvetica, sans-serif; color: #787568; }
+.tape a:before { position: absolute; z-index: 2; content: ' '; top: -12px; left: 50%; width: 115px; height: 32px; margin-left: -57px; background: url(../img/tape.png) no-repeat; }
+
+.change-filter { filter: hue-rotate(50deg); -webkit-filter: hue-rotate(50deg); }
+
+/*img{
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}*/

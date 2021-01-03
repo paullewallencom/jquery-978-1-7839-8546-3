@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Demo: using $.proxy to change context in jQuery</title>
+  <script src="js/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+    	var evntHandlers = {
+	    myName : 'Homer Simpson',
+
+	    clickHandler : function(){
+	      console.log('Hello, ' + this.myName);
+	    }
+      };
+
+      $("a").on('click',$.proxy(evntHandlers.clickHandler,evntHandlers));
+    });
+  </script>
+</head>
+<body>
+  <a href="#!">click me</a>
+</body>
+</html>
